@@ -1,3 +1,29 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Gist
+
+    @hcz4nbphff
+
+1
+0
+
+    7,033
+
+hcz4nbphff/game-of-life forked from wakaleo/game-of-life
+Code
+Pull requests 0
+Wiki
+Pulse
+Graphs
+Settings
+game-of-life/pom.xml
+0c4b7af on Sep 16, 2014
+@wakaleo wakaleo Updated dependencies
+499 lines (485 sloc) 21.8 KB
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -27,25 +53,6 @@
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
     </scm>
     <build>
-        <dependencies>
-  <dependency>
-    <groupId> org.apache.cassandra</groupId>
-    <artifactId>cassandra-all</artifactId>
-    <version>0.8.1</version>
-
-    <exclusions>
-      <exclusion> 
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-log4j12</artifactId>
-      </exclusion>
-      <exclusion> 
-        <groupId>log4j</groupId>
-        <artifactId>log4j</artifactId>
-      </exclusion>
-    </exclusions> 
-
-  </dependency>
-</dependencies>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -515,3 +522,8 @@
         </profile>
     </profiles>
 </project>
+
+    Status API Training Shop Blog About Pricing 
+
+    © 2016 GitHub, Inc. Terms Privacy Security Contact Help 
+
